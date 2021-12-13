@@ -4,6 +4,8 @@
   "description": "Simple project for learn about the mongoose orm",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "clear && nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vitor Figueiredo",
@@ -11,5 +13,8 @@
   "dependencies": {
     "mongodb": "^4.2.1",
     "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
